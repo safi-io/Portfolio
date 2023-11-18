@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAFI KHAN PORTFOLIO</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://kit.fontawesome.com/5d2f8e5307.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
+    <style>
+        ::selection {
+            background: #F05941;
+        }
+    </style>
+</head>
+
+<body class="bg-black font-roboto">
+
+    <!-- HEADER -->
+
+    <section class="sticky top-0 bg-black border-b-white border-b-solid border-b-[1px] z-50">
+
+        <div class="header flex sm:justify-around items-center h-[10vh] justify-between">
+            <div class="heading">
+                <a href="#link1">
+                    <h1 class="text-xl sm:text-3xl text-white ml-3 font-semibold font-oswald">Muhammad Safiullah Khan
+                    </h1>
+                </a>
+            </div>
+
+            <div class="nav hidden sm:block">
+                <ul class="text-lg pb-1 text-white cursor-pointer">
+                    <a href="#link1">
+                        <li class="inline-block px-1 ml-4 hover:font-black hover:text-[#F05941]">HOME</li>
+                    </a>
+                    <a href="#link2" class="">
+                        <li class="inline-block px-1 ml-4 hover:font-black hover:text-[#F05941]">SKILLS</li>
+                    </a>
+                    <a href="#link3">
+                        <li class="inline-block px-1 ml-4 hover:font-black hover:text-[#F05941]">PROJECTS</li>
+                    </a>
+                    <a href="#link4">
+                        <li class="inline-block px-1 ml-4 hover:font-black hover:text-[#F05941]">EDUCATION</li>
+                    </a>
+                    <a href="#link5">
+                        <li class="inline-block px-1 ml-4 hover:font-black hover:text-[#F05941]">CONTACT</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="button sm:hidden">
+                <button onclick="displaynav()">
+                    <i class="fa-solid fa-bars text-4xl pr-4 text-white"></i>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- RESPONSIVE HEADER -->
+
+    <div class="hidden fixed z-50" id="nav">
+        <ul class="bg-red-500" onclick="hideall()">
+            <a href="#link1">
+                <li class="text-white text-3xl text-center py-5 hover:font-extrabold">HOME</li>
+            </a>
+            <a href="#link2">
+                <li class="text-white text-3xl text-center py-5 hover:font-extrabold">SKILLS</li>
+            </a>
+            <a href="#link3">
+                <li class="text-white text-3xl text-center py-5 hover:font-extrabold">PROJECTS</li>
+            </a>
+            <a href="#link4">
+                <li class="text-white text-3xl text-center py-5 hover:font-extrabold">EDUCATION</li>
+            </a>
+            <a href="#link5">
+                <li class="text-white text-3xl text-center py-5 hover:font-extrabold">CONTACT</li>
+            </a>
+        </ul>
+    </div>
+
+    <!-- MAIN  -->
+
+    <div class="main flex flex-col sm:flex-row justify-center sm:justify-around items-center h-full sm:mt-10 scroll-mt-10"
+        id="link1">
+        <div class="img hover06 column">
+
+            <img src="assets/pic.png" alt="hero" class="sm:w-[450px] w-[250px] mt-5 shadow-xl shadow-[#F05941]">
+        </div>
+
+        <div class="intro">
+            <div class="text-white flex flex-col items-center text-center">
+                <span class="font-bold text-4xl sm:text-7xl font-oswald sm:mt-1 mt-5">HI, I AM <span
+                        class="text-[#F05941]">SAFI KHAN</span></span><br>
+                <span class="text-md">First-year BS-CS student with a passion for front-end web development. 🚀
+                    <br>Proficient in <span class="font-bold text-gray-200">HTML5, CSS3, JavaScript and a wizard with
+                        Tailwind CSS.</span><br>Turning ideas into visually appealing and user-friendly
+                    experiences.<br>Let's build something amazing together! 💻✨</span><br>
+
+                <a href="assets/RESUME.pdf" download
+                    class="border-2 border-solid border-white text-xl p-2 mb-2 hover:text-[#F05941] hover:bg-white font-bold rounded-xl bg-[#F05941] text-white duration-500 shadow-lg shadow-[#F05941]">DOWNLOAD
+                    CV</a>
+
+                <span class="text-[0.55rem] sm:text-sm mt-3">BASED IN<img src="assets/pakistan.png" alt="flag"
+                        width="40px" class="inline-block ml-2 rounded"></span>
+            </div>
+
+            <div class="icons flex text-5xl justify-around text-white my-5">
+
+                <a href="https://www.linkedin.com/in/muhammad-safiullah-khan-450347159/" target="_blank">
+                    <i class="fa-brands fa-linkedin hover:text-[#F05941] cursor-pointer duration-100 text-2xl">
+                    </i>
+                </a>
+
+                <a href="https://github.com/safi-thecoder" target="_blank">
+
+                    <i class="fa-brands fa-github hover:text-[#F05941] cursor-pointer duration-100 text-2xl">
+                    </i>
+                </a>
+
+
+                <a href="https://wa.me/+923287919711" target="_blank"><i
+                        class="fa-brands fa-whatsapp hover:text-[#F05941] cursor-pointer duration-100 text-2xl">
+                    </i>
+                </a>
+
+                <a href="https://web.facebook.com/rana.safiikhan/?_rdc=1&_rdr" target="_blank">
+                    <i class="fa-brands fa-facebook hover:text-[#F05941] cursor-pointer duration-100 text-2xl"></i>
+                </a>
+
+                <a href="https://www.instagram.com/rana.safikhan/" target="_blank">
+                    <i class="fa-brands fa-instagram hover:text-[#F05941] cursor-pointer duration-100 text-2xl">
+                    </i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- SKILLS -->
+
+    <h2 class="text-center text-6xl p-5 text-[#F05941] mt-5 mb-10 font-oswald scroll-mt-10" id="link2">SKILLS</h2>
+
+    <div class="main text-white">
+
+        <div class="skills max-w-[90%] m-auto flex flex-col">
+
+            <p class="text-center text-gray-400">HTML5</p>
+            <div class="bg-gray-400 w-full rounded-3xl">
+                <div class="text-right py-[10px] text-white bg-[#F05941] w-[90%] rounded-2xl pr-2">90%</div>
+            </div>
+
+            <p class="text-center text-gray-400 mt-4">CSS3</p>
+            <div class="bg-gray-400 w-full rounded-3xl">
+                <div class="text-right py-[10px] text-white bg-[#F05941] w-[85%] rounded-2xl pr-2">85%</div>
+            </div>
+
+            <p class="text-center text-gray-400 mt-4">TAILWIND CSS</p>
+            <div class="bg-gray-400 w-full rounded-3xl">
+                <div class="text-right py-[10px] text-white bg-[#F05941] w-[80%] rounded-2xl pr-2">80%</div>
+            </div>
+
+            <p class="text-center text-gray-400 mt-4">C and CPP</p>
+            <div class="bg-gray-400 w-full rounded-3xl">
+                <div class="text-right py-[10px] text-white bg-[#F05941] w-[70%] rounded-2xl pr-2">70%</div>
+            </div>
+
+            <p class="text-center text-gray-400 mt-4">JAVASCRIPT</p>
+            <div class="bg-gray-400 w-full rounded-3xl mb-10">
+                <div class="text-right py-[10px] text-white bg-[#F05941] w-[60%] rounded-2xl pr-2">60%</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- PROJECTS -->
+
+    <h2 class="text-center text-6xl text-[#F05941] mt-14 mb-10 font-oswald p-5 scroll-mt-10" id="link3">PROJECTS</h2>
+
+    <div class=" text-white flex flex-col sm:flex-row items-center justify-center max-w-[90%] m-auto">
+
+        <div class="flex flex-col items-center justify-center">
+            <h3 class="text-2xl sm:text-3xl mb-3">DARAZ (E-commerce) CLONE</h3>
+            <p class="text-gray-400">Click on the VIDEO to go Deployed site!</p>
+            <a href="https://daraz-clone-by-safi.netlify.app/" target="_blank"><video src="assets/daraz.mp4" muted
+                    autoplay loop class="w-[450px] border-solid border-white border-[1px]"></video></a>
+            <p class="text-center max-w-[400px] mt-5">Daraz is one of the best E-commerce platform oprating in Pakistan.
+                I cloned its front-end using front-end technologies like HTML,CSS, Tailwind CSS and JavaScript. It is
+                multi-page clone.</p>
+        </div>
+
+        <div class="flex flex-col items-center justify-center m-5">
+            <h3 class="text-2xl sm:text-3xl mb-3">Digital Clock</h3>
+            <p class="text-gray-400">Click on the VIDEO to go Deployed site!</p>
+            <a href="https://safi-thecoder.github.io/CODSOFT-DigitalClock/" target="_blank"><video
+                    src="assets/clock.mp4" muted autoplay loop
+                    class="w-[450px] border-solid border-white border-[1px]"></video></a>
+            <p class="text-center max-w-[400px] mt-5">I created this Digital Clock mainly by using JavaScipt. It
+                includes the usage of date, time handling and real-time updates. It updates the time every
+                1000<sup>th</sup> millisecond and it is also responsive.</p>
+        </div>
+
+        <div class="flex flex-col items-center justify-center">
+            <h3 class="text-2xl sm:text-3xl mb-3">To-Do List Website</h3>
+            <p class="text-gray-400">Click on the VIDEO to go Deployed site!</p>
+            <a href="https://safi-thecoder.github.io/CODSOFT-todo/" target="_blank"><video src="assets/todo.mp4" muted
+                    autoplay loop class="w-[450px] border-solid border-white border-[1px]"></video></a>
+
+            <p class="text-center max-w-[400px] mt-5">I developed this To-do List using JavaScript.It reflects my
+                knowledge of Event handling and DOM manipulation. It also stores the data locally using JSON. You can
+                add, edit, remove the tasks.</p>
+
+        </div>
+
+    </div>
+
+    <!-- EDUCATION -->
+
+    <h2 class="text-center text-6xl text-[#F05941] mt-14 mb-10 font-oswald p-5 scroll-mt-10" id="link4">EDUCATION</h2>
+    <section class=" text-white mb-10">
+
+        <div class="parent flex justify-around items-center flex-col sm:flex-row">
+
+            <div class="child1 h-[20rem] w-[300px] text-center flex items-center justify-center flex-col">
+                <span class="font-oswald text-2xl">BACHELORS IN COMPUTER SCIENCE</span>
+                <a href="https://sahiwal.comsats.edu.pk/Default.aspx" target="_blank"><img
+                        src="assets/uni logo.png" alt="university-logo" class="w-[150px]"></a>
+                <span class="mt-2 text-md font-bold">COMSATS UNIVERSITY ISLAMABAD, SAHIWAL CAMPUS</span>
+                <span class="text-gray-400">2023-27</span>
+                <span class="mb-10">GRADE : - -</span>
+            </div>
+
+            <div class="child2 h-[20rem] w-[300px] text-center flex items-center justify-center flex-col">
+                <span class="font-oswald text-2xl mt-5">INTERMEDIATE IN COMPUTER SCIENCE</span>
+                <a href="https://pgc.edu/" target="_blank"><img src="assets/clg logo.webp" alt="college-logo"
+                        class="w-[150px]"></a>
+                <span class="mt-2 text-md font-bold">PUNJAB GROUP OF COLLEGES, FAISALABAD</span>
+                <span class="text-gray-400">2021-23</span>
+                <span class="mb-10">GRADE : C</span>
+            </div>
+
+            <div class="child3  h-[20rem] w-[300px] text-center flex items-center justify-center flex-col">
+                <span class="font-oswald text-2xl">MATRICULATION IN COMPUTER SCIENCE</span>
+                <a href="https://dpsfsd.edu.pk/" target="_blank"><img src="assets//scl logo.png" alt="school-logo"
+                        class="w-[150px]"></a>
+                <span class="mt-2 text-md font-bold">DIVSIONAL PUBLIC SCHOOL FAISALABAD, SAMUNDRI CAMPUS</span>
+                <span class="text-gray-400">2019-21</span>
+                <span class="">GRADE : A+</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+
+    <h2 class="text-center text-6xl p-5 text-[#F05941] mt-5 font-oswald scroll-mt-10" id="link5">CONTACT</h2>
+
+    <div class="flex justify-around items-center sm:h-screen h-full bg-black flex-col sm:flex-row">
+
+
+        <div class="contact text-white text-center">
+
+            <form action="https://formsubmit.co/4dde76de6a9309d8a9696fa2f9318dbd" method="POST"
+                class="flex flex-col items-center"">
+
+                <div class="mt-5">
+
+
+                    <p class="text-[#F05941] font-bold">Name</p>
+                    <input
+                        class="h-[30px] w-[400px] mt-[10px] text-[18px] bg-transparent border-b-solid border-b-white border-b-[1px] caret-white focus:outline-none text-center"
+                        required type="text" name="Name" id="Name" required>
+                </div>
+
+                <div class="mt-5">
+
+
+                    <p class="text-[#F05941] font-bold">Phone Number: (optional)</p>
+                    <input
+                        class="h-[30px] w-[400px] mt-[10px] text-[18px] bg-transparent border-b-solid border-b-white border-b-[1px] caret-white focus:outline-none text-center"
+                        type="number" name="Number" id="Number">
+                </div>
+
+                <div class="mt-5">
+
+
+                    <p class="text-[#F05941] font-bold">E-mail</p>
+                    <input
+                        class="h-[30px] w-[400px] mt-[10px] text-[18px] bg-transparent border-b-[1px] border-b-white border-b-solid focus:outline-none text-center caret-white"
+                        required type="email" name="E-mail" id="E-mail" required>
+                </div>
+
+                <div class="mt-5">
+
+
+                    <p class="text-[#F05941] font-bold">Subject</p>
+                    <input
+                        class="h-[30px] w-[400px] mt-[10px] text-[18px] bg-transparent border-b-[1px] border-b-white border-b-solid caret-white focus:outline-none text-center"
+                        type="text" name="Subject" id="Subject" required>
+                </div>
+
+                <div class="mt-5">
+
+                    <p class="text-[#F05941] font-bold">Write Your Message</p>
+                    <input
+                        class="h-[30px] w-[400px] mt-[10px] text-[18px] bg-transparent border-b-[1px] border-b-white border-b-solid caret-white focus:outline-none text-center"
+                        required type="text" name="message" id="Message" required>
+                </div>
+
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+
+                <button type="submit"
+                    class="border-2 border-solid border-white text-xl p-2 mb-2 hover:text-[#F05941] hover:bg-white font-bold rounded-xl bg-[#F05941] duration-500 shadow-lg shadow-[#F05941] font-oswald mt-5">SEND
+                    E-MAIL</button>
+
+            </form>
+        </div>
+
+        <div class="mt-5 sm:mt-0">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9379.033345789698!2d73.1530186627538!3d30.636014066332674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922b6e4dde0c501%3A0xc37ea3d85326203!2sCOMSATS%20University%20Islamabad%20-%20Sahiwal%20Campus!5e0!3m2!1sen!2s!4v1700269484567!5m2!1sen!2s"
+                allowfullscreen="" loading="lazy" class="sm:w-[500px] sm:h-[500px] w-[350px] h-[300px]"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        function displaynav() {
+            var nav = document.getElementById("nav");
+            if (nav.style.display === "block") {
+                nav.style.display = "none"
+            } else {
+                nav.style.display = "block"
+            }
+        }
+
+        function hideall() {
+            nav.style.display = "none";
+        }
+
+    </script>
+</body>
+
+</html>
