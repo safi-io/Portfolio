@@ -19,7 +19,8 @@
 
     <!-- HEADER -->
 
-    <section class="sticky top-0 bg-black border-b-white border-b-solid border-b-[1px] z-50">
+    <section class="sticky top-0 bg-black border-b-white border-b-solid border-b-[1px] z-50"
+    id="parent">
 
         <div class="header flex sm:justify-around items-center h-[10vh] justify-between">
             <div class="heading">
@@ -32,19 +33,19 @@
             <div class="nav hidden sm:block">
                 <ul class="text-lg pb-1 text-white cursor-pointer">
                     <a href="#link1">
-                        <li class="inline-block px-1 ml-4 hover:font-black hover:text-[#F05941]">HOME</li>
+                        <li class="inline-block px-1 ml-4 hover:font-black" id="hover1">HOME</li>
                     </a>
                     <a href="#link2" class="">
-                        <li class="inline-block px-1 ml-4 hover:font-black hover:text-[#F05941]">SKILLS</li>
+                        <li class="inline-block px-1 ml-4 hover:font-black" id="hover2">SKILLS</li>
                     </a>
                     <a href="#link3">
-                        <li class="inline-block px-1 ml-4 hover:font-black hover:text-[#F05941]">PROJECTS</li>
+                        <li class="inline-block px-1 ml-4 hover:font-black" id="hover3">PROJECTS</li>
                     </a>
                     <a href="#link4">
-                        <li class="inline-block px-1 ml-4 hover:font-black hover:text-[#F05941]">EDUCATION</li>
+                        <li class="inline-block px-1 ml-4 hover:font-black" id="hover4">EDUCATION</li>
                     </a>
                     <a href="#link5">
-                        <li class="inline-block px-1 ml-4 hover:font-black hover:text-[#F05941]">CONTACT</li>
+                        <li class="inline-block px-1 ml-4 hover:font-black" id="hover5">CONTACT</li>
                     </a>
                 </ul>
             </div>
@@ -325,23 +326,7 @@
 
     </div>
 
-
-
-    <script>
-        function displaynav() {
-            var nav = document.getElementById("nav");
-            if (nav.style.display === "block") {
-                nav.style.display = "none"
-            } else {
-                nav.style.display = "block"
-            }
-        }
-
-        function hideall() {
-            nav.style.display = "none";
-        }
-
-    </script>
+<script src="index.js"></script>
 </body>
 
 </html>
