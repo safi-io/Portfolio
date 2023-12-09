@@ -1058,6 +1058,7 @@ video {
 
 .hover\:font-black:hover{
   font-weight: 900;
+  text-decoration: underline;
 }
 
 .hover\:font-extrabold:hover{
